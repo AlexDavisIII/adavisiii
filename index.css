@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    animation-delay: 2.5s;
+    animation-duration: 2s;
+}
+
