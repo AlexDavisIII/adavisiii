@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    animation-name: slideDown; /*keyframe rule "slideDown" custom created and populated below*/
+    animation-delay: 2.5s; /*ensures animation doesn't start until 2.5seconds after page load*/
+    animation-duration: 3s;
+    animation-fill-mode: forwards; /*animation will pause at the end instead of cycle back to original position*/
+}
+
+@keyframes slideDown {
+    
+     100%{
+        margin-top: 70%;
+        /*transform: translate(0, 350%);*/ /*<----- *MAY STILL USE THIS! Learning use of transform*/
+    }
+}
